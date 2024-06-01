@@ -1,0 +1,148 @@
+.root{
+    -fx-background-color: #EAEEF4;
+}
+
+.side_ankerpane, .btn_workbench11, .pane_1111{
+    -fx-background-color: #353A56;
+    -fx-border-color: #353A56;
+}
+
+.inner_pane, .pane_11{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ffffff;
+}
+
+.worckbench_pane, .pane_1111{
+    -fx-background-color: #353A56;
+    -fx-border-color: #353A56;
+}
+
+.most_inner_pane, .pane_1{
+    -fx-background-color: #748CF1;
+    -fx-border-color: #748CF1;
+}
+
+#btn_workbench{
+    -fx-background-color: #141313;
+    -fx-border-color: #141313;
+}
+
+.btn_workbench11, .pane_1111{
+    -fx-background-color: #353A56;
+    -fx-border-color: #353A56;
+}
+
+.progress, .pane_11{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ffffff;
+}
+
+.pane_111{
+    -fx-background-color: #FD9999;
+    -fx-border-color: #FD9999;
+}
+
+/* Estilos de botones comunes para mantener uniformidad */
+.button, .JFXButton{
+    -fx-background-color: #353A56;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Estilo de bordes redondeados comunes */
+.pane, .HBox, .VBox, .AnchorPane{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+/* Textos y etiquetas */
+.label, .Label{
+    -fx-text-fill: #748CF1;
+    -fx-font-size: 14px;
+}
+
+/* Detalles de las alertas o información importante */
+.detail-label, .pane_111{
+    -fx-background-color: #FD9999;  /* Resaltar detalles importantes o errores */
+}
+.toolbar {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: white;
+}
+
+.toolbar-button {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+}
+
+.sidebar {
+    -fx-background-color: #666;
+}
+
+.footer-label {
+    -fx-background-color: #777;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+/* Estilos para el subtítulo 'Inventory Management' */
+.label-inventory-management {
+    -fx-font-size: 16px; /* Tamaño adecuado para un subtítulo */
+    -fx-text-fill: #333; /* Color de texto oscuro para contraste */
+    -fx-font-weight: bold; /* Hacer el texto negrita para destacarlo */
+}
+
+/* Estilos para la etiqueta 'Period:' */
+.label-period {
+    -fx-font-size: 14px; /* Tamaño de fuente adecuado para la etiqueta */
+    -fx-text-fill: #666; /* Color gris oscuro para un look profesional */
+}
+
+/* Estilos para el ComboBox, aplicando un efecto transparente */
+.combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Fondo ligeramente transparente */
+    -fx-border-color: #ccc; /* Borde sutil */
+    -fx-border-radius: 4px; /* Bordes redondeados para suavizar la apariencia */
+    -fx-background-radius: 4px; /* Radio de fondo para combinar con el borde */
+}
+
+/* Estilos para los elementos dentro del ComboBox */
+.combo-box .list-cell {
+    -fx-padding: 5px 10px; /* Espaciado interno para los elementos */
+    -fx-text-fill: #333; /* Texto oscuro para leer fácilmente */
+}
+
+/* Estilo para el elemento seleccionado o con el mouse encima */
+.combo-box .list-cell:hover, .combo-box .list-cell:focused, .combo-box .list-cell:selected {
+    -fx-background-color: rgba(200, 200, 200, 0.8); /* Color de fondo al pasar el mouse o seleccionar */
+    -fx-text-fill: #000; /* Texto en color negro para contraste */
+}
+/* Estilo básico para el contenedor del panel */
+.panel {
+    background-color: #ffffff; /* Fondo blanco para el panel */
+    border: 1px solid #e0e0e0; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen externo */
+    display: inline-block; /* Alinear los paneles en línea */
+    width: 200px; /* Ancho fijo */
+    text-align: center; /* Centrar el texto dentro del panel */
+}
+
+/* Estilo para los títulos de cada KPI */
+.panel_h1 {
+    font-size: 24px; /* Tamaño grande para el valor del KPI */
+    color: #333333; /* Color oscuro para texto */
+    margin: 10px 0; /* Margen arriba y abajo */
+}
+
+/* Estilo para las descripciones o etiquetas bajo los valores */
+.panel_p {
+    font-size: 16px; /* Tamaño más pequeño para descripción */
+    color: #666666; /* Gris medio para las descripciones */
+    margin: 0; /* Sin margen adicional */
+}
+
+
+

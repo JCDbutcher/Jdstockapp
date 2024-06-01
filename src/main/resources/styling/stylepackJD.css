@@ -1,0 +1,197 @@
+.button
+{
+-fx-background-color : #FFF;
+-fx-border-color: #355ECE;
+-fx-text-fill:  #0C3988;
+}
+.button:hover
+{
+-fx-background-color : #355ECE ;
+-fx-text-fill:  #FFF;
+}
+.button:pressed
+{
+-fx-background-color : #0C39FF ;
+-fx-text-fill: #FFF;
+}
+
+.button2
+{
+-fx-background-color :  #0C39FF;
+-fx-border-color: #FFF;
+-fx-text-fill:  #FFF;
+}
+.button2:hover
+{
+-fx-background-color : #0C3988 ;
+-fx-text-fill:   #FFF;
+}
+.button2:pressed
+{
+-fx-background-color : #0C3400 ;
+-fx-text-fill: #FFF;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color:   #2D75E8;
+}
+.table-view .column-header .label{
+
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell{
+   -fx-cell-size: 30;
+    -fx-text-fill: #000000;
+  -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:  rgb(127, 172, 243);
+ }
+ .table-row-cell:selected .text {
+        -fx-fill : white ;
+ 
+ }
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive(  #2D75E8,80%);
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #2D75E8,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
+
+/* chart properties */
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: false;
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-pie {
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+.panelToken
+{
+    -fx-background-color : rgba(12, 255, 134, 0);
+    -fx-border-color: #FFF;
+    -fx-text-fill:  #FFF;
+}
+.panelToken:hover
+{
+    -fx-background-color : rgba(136, 12, 12, 0.06);
+    -fx-text-fill:   #FFF;
+}
+.panelToken:pressed
+{
+    -fx-background-color : rgba(12, 52, 0, 0);
+    -fx-text-fill: #FFF;
+}
+.button_notifi
+{
+    -fx-background-color : rgba(255, 255, 255, 0);
+    -fx-text-fill: rgba(12, 57, 136, 0);
+}
+.button_notifi:hover
+{
+    -fx-background-color : rgba(53, 201, 206, 0.6);
+    -fx-text-fill:  #FFF;
+}
+.button_notifi:pressed
+{
+    -fx-background-color : rgba(12, 255, 190, 0.37);
+    -fx-text-fill: #FFF;
+}
+.label-box {
+    -fx-padding: 10px;
+    -fx-background-color: #f0f4ff; /* Un azul claro muy suave */
+    -fx-border-color: #a3bfff; /* Un azul más oscuro para el borde */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 10);
+    -fx-font-size: 14px; /* Tamaño de fuente adecuado */
+    -fx-font-weight: bold; /* Fuente en negrita para destacar */
+    -fx-text-fill: #1f4b99; /* Color de texto azul oscuro */
+}
+.user-info {
+    -fx-font-family: 'Arial'; /* Establece la familia de fuentes */
+    -fx-font-size: 14px; /* Tamaño de fuente para el rol */
+    -fx-text-fill: #333333; /* Color del texto para un contraste suave */
+}
+
+.user-name {
+    -fx-font-size: 16px; /* Tamaño de fuente más grande para el nombre */
+    -fx-font-weight: bold; /* Fuente en negrita para el nombre */
+    -fx-text-fill: #2E5CBA; /* Color azul oscuro para hacerlo resaltar */
+}
+
+.user-role {
+    -fx-font-style: italic; /* Cursiva para el rol para diferenciarlo */
+    -fx-opacity: 0.75; /* Menos prominencia mediante la opacidad */
+}
+/* Estilo para el ComboBox en general */
+.combo-box {
+    -fx-padding: 4px 6px;
+    -fx-background-color: #ffffff; /* Color de fondo blanco */
+    -fx-border-color: #c0c0c0; /* Borde gris */
+    -fx-border-radius: 5px; /* Bordes redondeados */
+    -fx-background-radius: 5px;
+}
+
+/* Estilo para la flecha del ComboBox */
+.combo-box .arrow-button {
+    -fx-background-color: transparent; /* Hacer transparente el fondo del botón de la flecha */
+    -fx-padding: 4px; /* Ajustar el padding si es necesario */
+}
+
+.combo-box .arrow {
+    -fx-background-color: #c0c0c0; /* Color de la flecha */
+}
+
+/* Estilo para los elementos dentro del ComboBox cuando se despliega */
+.combo-box .list-cell {
+    -fx-padding: 4px 10px; /* Espaciado dentro de cada elemento */
+    -fx-background-color: #ffffff; /* Color de fondo de cada elemento */
+}
+
+/* Estilo para el elemento seleccionado o con el mouse encima */
+.combo-box .list-cell:hover, .combo-box .list-cell:focused, .combo-box .list-cell:selected {
+    -fx-background-color: #ececec; /* Cambiar el color de fondo al pasar el mouse */
+    -fx-text-fill: #000000; /* Texto en color negro para contraste */
+}
+
+/* Si el ComboBox es editable, también puedes querer estilizar el campo de entrada */
+.combo-box-base .text-field {
+    -fx-background-color: #ffffff; /* Fondo del campo de texto */
+    -fx-border-color: transparent; /* Sin bordes para el campo de texto interno */
+}
+

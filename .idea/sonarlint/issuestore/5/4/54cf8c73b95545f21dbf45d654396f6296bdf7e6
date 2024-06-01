@@ -1,0 +1,21 @@
+
+
+java:S1192"YDefine a constant instead of duplicating this literal "No transaction selected." 3 times.(ûİ§Û8ï«Ê¸ø1J$1cfad77d-7ea6-4e63-8a8d-0e957ab3c391
+Š
+java:S1192"FDefine a constant instead of duplicating this literal "Error" 8 times.(ûİ§Û8ó˜‘ù1J$7b1c78d3-53cd-4e92-b43e-7717f17c0b5e
+p
+java:S5411["(Use a primitive boolean expression here.(ì¶˜öùÿÿÿÿ8ñ«Ê¸ø1J$92cb250e-a111-4e99-8081-b6308ab4ab8a
+m	java:S106q"+Replace this use of System.out by a logger.(À¥İ…8Å¬Ê¸ø1J$27054fc1-fc19-4e24-86c6-2e35e96c3808
+m	java:S106v"+Replace this use of System.out by a logger.(ƒ‹Ì8Æ¬Ê¸ø1J$91208ab7-3f21-4e3c-97ad-2fc89d380f06
+r	java:S106|"+Replace this use of System.out by a logger.(‰ğË†øÿÿÿÿ8Ç¬Ê¸ø1J$e09a6088-c02d-4e92-83f5-da227e54b0aa
+v
+java:S1172ş"2Remove this unused method parameter "actionEvent".(ˆâ¶Ê8ä¬Ê¸ø1J$fc797011-1d53-43fa-9604-a93ebcd5ba5c
+{
+java:S1172™"2Remove this unused method parameter "actionEvent".(£ï®ûÿÿÿÿ8ä¥‘ëø1J$19aa6a4e-9a6e-49e2-ba07-56ceaf02fca2
+s	java:S106Û"+Replace this use of System.out by a logger.(¼¯“Ÿşÿÿÿÿ8ì¬Ê¸ø1J$afa3cc0d-98a2-46d3-a068-4bf4f12b6f17
+n	java:S106İ"+Replace this use of System.err by a logger.(³¨ÑÎ8ì¬Ê¸ø1J$c1d1b3f2-8bb2-432c-bd7c-b12f20a88c46
+n	java:S106à"+Replace this use of System.err by a logger.(Èº›µ8ì¬Ê¸ø1J$84c3aaf7-326a-4e8d-87d0-80c046c17954
+‚
+java:S1128"?Remove this unused import 'utils.EmailSender.sendInvoiceEmail'.(ÕÙì8›é‘ù1J$4e388436-3161-4e67-b490-28acdf67bcef
+–
+java:S1128"NRemove this unused import 'utils.TransactionEmailService.generateInvoiceHtml'.(âÎ¨Àÿÿÿÿÿ8›é‘ù1J$25a63dc4-e6bc-4102-90bd-88e5d00b8004

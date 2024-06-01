@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="287.0" prefWidth="400.0" stylesheets="@../styling/newcustumercss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NewCustomerController">
+    <children>
+        <VBox alignment="TOP_CENTER" spacing="15.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <Label alignment="CENTER" text="New Customer Creation">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Label>
+         <TextField fx:id="nifFIeld" promptText="NIF" styleClass="field-style" />
+            <TextField fx:id="nameField" promptText="Name" styleClass="field-style" />
+            <TextField fx:id="addressField" promptText="Address" styleClass="field-style" />
+            <TextField fx:id="phoneField" promptText="Phone" styleClass="field-style" />
+            <TextField fx:id="emailField" promptText="Email" styleClass="field-style" />
+            <HBox alignment="CENTER" spacing="20.0">
+                <Button onAction="#handleSaveAction" styleClass="button-style" text="Save" />
+                <Button onAction="#handleCancelAction" styleClass="button-style" text="Cancel" />
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

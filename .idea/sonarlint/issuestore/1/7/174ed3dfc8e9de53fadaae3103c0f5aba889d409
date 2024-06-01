@@ -1,0 +1,12 @@
+
+
+java:S1659"FDeclare "nameField" and all following declarations on a separate line.(Ä Æ¹úÿÿÿÿ8ŠšÏ·ø1J$97eec4cc-8622-4cb4-a16e-07ac8cb6222e
+‘
+java:S1659"IDeclare "deleteButton" and all following declarations on a separate line.(¡èÿüÿÿÿÿ8ŠšÏ·ø1J$ef578c2e-9239-4edf-aa09-87e8d1fb23b2
+‰
+java:S18742"ARemove this use of "CONSTRAINED_RESIZE_POLICY"; it is deprecated.(Ç†«‰úÿÿÿÿ8“šÏ·ø1J$ca3d4255-540e-4406-92b9-5d4b9b30e0c8
+x
+java:S22096"5Change this instance-reference to a static reference.(úÛ‚à8£…–™ù1J$ed1f3455-2eae-48a5-a6d9-e47836bb230a
+s	java:S106‹"+Replace this use of System.out by a logger.(ÆÀ‚ƒşÿÿÿÿ8µšÏ·ø1J$1f4d8877-5b09-4e03-9618-b760558195f6
+r
+java:S1128"*Remove this unused import 'utils.JPAUtil'.(…©åùùÿÿÿÿ8¿…–™ù1J$6683584f-badb-4b2c-9f4f-144758422297

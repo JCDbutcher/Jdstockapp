@@ -1,0 +1,61 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #28cafe;  /* Rosa vibrante para el fondo */
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 0;
+    -fx-padding: 10;
+    -fx-text-inner-color: black;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.text-field:focused {
+    -fx-background-color: white, #e1e1e1;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 0;
+}
+
+.button {
+    -fx-background-color: #28CAFE;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 15 30 15 30;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.password-field {
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 0;
+    -fx-padding: 10;
+    -fx-text-inner-color: black;
+}
+
+.password-field:focused {
+    -fx-background-color: white, #e1e1e1;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 0;
+}
+.button-transparent {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.button-transparent:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #FF4081;
+}
+

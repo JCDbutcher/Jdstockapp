@@ -1,0 +1,13 @@
+
+
+java:S1192«"FDefine a constant instead of duplicating this literal "Error" 5 times.(«±ŠÑúÿÿÿÿ8›ÑæÅ÷1J$4b3a782c-e047-4a1b-b9cb-b79e80d26a0d
+~
+java:S2209×"5Change this instance-reference to a static reference.(Ó†öıÿÿÿÿ8ÓÒæÅ÷1J$5e8e3eca-a48e-4b2c-afec-8e047042474c
+s	java:S106Ü"+Replace this use of System.out by a logger.(°¾ŒÍûÿÿÿÿ8ÕÒæÅ÷1J$39027d72-a39a-485a-b079-c8911a4330de
+y
+java:S2209á"5Change this instance-reference to a static reference.(ª–¼½8ÖÒæÅ÷1J$b97d287b-9f89-444b-9e2a-6bd67db94168
+m	java:S106æ"+Replace this use of System.out by a logger.(³”¾\8×ÒæÅ÷1J$2d0baecf-3feb-4d6a-8420-5688943a1983
+‹
+java:S1128"HRemove this unused import 'javafx.beans.property.ReadOnlyObjectWrapper'.(°ê°8€ÓæÅ÷1J$a9f19887-3651-450a-bfec-d016df6cb767
+Š
+java:S1128"GRemove this unused import 'javafx.beans.property.SimpleStringProperty'.(ûĞùÑ8€ÓæÅ÷1J$f05957a0-3688-4390-87f2-6bb85bde32d7

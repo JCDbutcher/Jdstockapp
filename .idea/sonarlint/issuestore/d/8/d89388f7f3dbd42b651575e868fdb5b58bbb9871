@@ -1,0 +1,21 @@
+
+x
+java:S22092"5Change this instance-reference to a static reference.(¢ÂŠˆ8âÃøù1J$caf33c6e-fb4e-4385-bced-2a655ae35f5c
+x
+java:S22094"5Change this instance-reference to a static reference.(‹¯©ÿ8Ş¥€‘ù1J$dc13f597-dc80-46ba-bc8d-e9ae064eba09
+x
+java:S22096"5Change this instance-reference to a static reference.(‹¯©ÿ8à¥€‘ù1J$0809fff3-dda9-4b9f-93a2-f5d5a07cc00f
+x
+java:S22097"5Change this instance-reference to a static reference.(¢ÂŠˆ8äÃøù1J$590ca41f-7aa9-494f-93e2-7743ae51ad0f
+•
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Òğ§«8çÃøù1J$6a835f79-9047-4967-a32c-738237df8d67
+
+java:S6201A"HReplace this instanceof check and cast with 'instanceof Cliente cliente'(¨ÛÖÚûÿÿÿÿ8êÃøù1J$77893ce1-2bd8-4c22-a145-6f50e2a57d8e
+”
+java:S6201C"LReplace this instanceof check and cast with 'instanceof Proveedor proveedor'(ÒÄ°Ûûÿÿÿÿ8ëÃøù1J$fa250ca9-fff8-48f0-b7b6-29ebda798bb1
+
+java:S6201N"HReplace this instanceof check and cast with 'instanceof Cliente cliente'(¨Ğ•…ùÿÿÿÿ8íÃøù1J$01318592-0a3b-400a-8bf8-2fec52967a32
+
+java:S6201P"LReplace this instanceof check and cast with 'instanceof Proveedor proveedor'(˜İ¢‹8îÃøù1J$74a3816d-37d9-492a-95a6-c2cf0a9ca0e0
+‹
+java:S6201e"HReplace this instanceof check and cast with 'instanceof Cliente cliente'(¡”‘”8ñÃøù1J$167db829-6265-4bf7-b315-c414cb825d1e

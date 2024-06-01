@@ -1,0 +1,101 @@
+/* Establece las fuentes y colores básicos de la aplicación */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-base: #f0f0f0;
+    -fx-background: #f9f9f9;
+}
+
+/* Estilos para el encabezado */
+.header {
+    -fx-background-color: #5a5a5a;
+    -fx-text-fill: #ffffff;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+    -fx-background-color: #404040;
+    -fx-text-fill: #ffffff;
+}
+
+/* Botones de navegación en la barra lateral */
+.button {
+    -fx-background-color: #606060;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-border-color: #707070;
+    -fx-border-width: 0;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #505050;
+}
+
+/* Estilo para el área de búsqueda y los íconos del encabezado */
+.search-box, .icon {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+/* Campos de texto generales */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bbbbbb;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 5 10;
+}
+
+/* Etiquetas y texto */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+}
+
+/* Paginación y navegación */
+.pagination {
+    -fx-background-color: #404040;
+}
+
+.pagination .control-box .number-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
+
+.pagination .control-box .number-button:hover {
+    -fx-background-color: #505050;
+}
+
+/* Configuración adicional para diálogos y popups */
+.dialog-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #5a5a5a;
+    -fx-text-fill: #ffffff;
+}
+/* Botones de navegación en la barra lateral con fondo transparente */
+.button-transparent {
+    -fx-background-color: transparent;  /* Fondo transparente */
+    -fx-text-fill: #ffffff;            /* Color del texto blanco */
+    -fx-font-size: 14px;               /* Tamaño de la fuente */
+    -fx-border-color: #707070;         /* Color del borde */
+    -fx-border-width: 2;               /* Ancho del borde */
+    -fx-padding: 10 20;                /* Padding interno para texto */
+    -fx-border-radius: 5;              /* Radio del borde */
+    -fx-background-radius: 5;          /* Radio del fondo */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); /* Sombra opcional */
+}
+
+.button-transparent:hover {
+    -fx-background-color: rgba(255,255,255,0.1); /* Ligero resalte al pasar el ratón */
+    -fx-cursor: hand; /* Cambia el cursor a una mano para indicar que es interactivo */
+}
+
+.button-transparent:pressed {
+    -fx-background-color: rgba(255,255,255,0.2); /* Cambio de color al presionar */
+}
+

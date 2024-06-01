@@ -1,0 +1,28 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #606060;
+    -fx-background: #FFFFFF;
+}
+
+.field-style {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-highlight-fill: #00a8e8;
+    -fx-highlight-text-fill: white;
+    -fx-background-color: white, #ececec;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 5, 5;
+    -fx-padding: 10;
+}
+
+.button-style {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 3, 0, 0, 1);
+    -fx-font-size: 12pt;
+}
+
+.button-style:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}

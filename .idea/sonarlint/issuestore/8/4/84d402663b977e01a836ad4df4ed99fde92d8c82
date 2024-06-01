@@ -1,0 +1,15 @@
+
+m	java:S106"+Replace this use of System.out by a logger.(¢Ä®8¨ÿ˜ö1J$ce431b90-3e1e-4ed8-ab95-bc26b62ac744
+l	java:S106"+Replace this use of System.out by a logger.(»ûÖ8¨ÿ˜ö1J$64929bc1-8000-4ae8-9ff3-d30df6f0c06c
+m	java:S106"+Replace this use of System.out by a logger.(ÓŒşÉ8âçÆ¡ö1J$239b44be-53b6-479f-833e-769d7392e62f
+l	java:S106"+Replace this use of System.out by a logger.(è™–+8âçÆ¡ö1J$848c7434-c392-405a-9d1b-0e6ba575942c
+r	java:S106"+Replace this use of System.out by a logger.(·ßù·ıÿÿÿÿ8ãçÆ¡ö1J$f6a30a01-3239-4a27-858c-ba1338d180b7
+m	java:S106%"+Replace this use of System.out by a logger.(àˆ¾ì8ãçÆ¡ö1J$63c9c7f6-3111-4f9a-aa41-5d8e5c2b51a1
+m	java:S106'"+Replace this use of System.out by a logger.(‡ƒë8ãçÆ¡ö1J$dd607ea8-2956-4fac-9ba9-c0424b95c155
+r	java:S106,"+Replace this use of System.out by a logger.(®õû¬şÿÿÿÿ8äçÆ¡ö1J$628e4fcd-56e8-4297-b2b5-f88a3af759b2
+r	java:S106."+Replace this use of System.out by a logger.(ëñ¡Üıÿÿÿÿ8åçÆ¡ö1J$94791d43-a5db-4602-b812-9c3d90d22db6
+m	java:S1061"+Replace this use of System.out by a logger.(Ú¾‰‡8åçÆ¡ö1J$27515994-5a78-48a1-a999-2696e534e123
+„
+java:S1128"<Remove this unused import 'funcionalidadDAO.EmpresaDAOImpl'.(¶“ğüÿÿÿÿ8™û’¤ö1J$168ae096-7f29-4871-8f26-ed5f6203aab4
+r
+java:S1128"*Remove this unused import 'utils.JPAUtil'.(…©åùùÿÿÿÿ8™û’¤ö1J$7a7a6223-b2f2-4ffc-8550-9aea02d04729

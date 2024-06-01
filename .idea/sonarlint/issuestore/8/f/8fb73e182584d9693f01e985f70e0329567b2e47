@@ -1,0 +1,8 @@
+
+¤	java:S116#"]Rename this field "EmpresaManagmentID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ûê„ùÿÿÿÿ8Š¬ê¡õ1J$9408524a-350e-4713-b267-a0c4c442a22e
+ˆ
+java:S1854Q"ERemove this useless assignment to local variable "controllerEmpresa".(½ÀÊª8“¬ê¡õ1J$a596878a-ada7-4060-ba75-b410b5407713
+y
+java:S1481Q"6Remove this unused "controllerEmpresa" local variable.(½ÀÊª8œ¬ê¡õ1J$4b537aa9-edfb-44cc-9375-1629e44a4b1e
+~
+java:S1068#"6Remove this unused "EmpresaManagmentID" private field.(™ûê„ùÿÿÿÿ8¨¬ê¡õ1J$e1de0a34-d011-42bd-868c-060e5d57b46b

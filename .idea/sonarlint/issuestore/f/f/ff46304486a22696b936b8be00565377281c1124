@@ -1,0 +1,7 @@
+
+ƒ
+java:S1117>";Rename "usuario" which hides the field declared at line 43.(”òàÂøÿÿÿÿ8ğÔ«–ù1J$4e919e1a-ce14-4578-a844-d3acde2acd23
+m	java:S106u"+Replace this use of System.out by a logger.(¡Òç8 Ï¶Áö1J$0663e50c-31dc-408d-84c0-3bafea6e1022
+n	java:S106"+Replace this use of System.err by a logger.(Ë‡ï8§Ï¶Áö1J$7b0d3804-d571-46ab-92d6-59e5f8b6343b
+s
+java:S1068+"+Remove this unused "usuario" private field.(ÂÌ±Ñûÿÿÿÿ8®Ï¶Áö1J$1af4a312-9c2d-4907-a82b-d10031536748

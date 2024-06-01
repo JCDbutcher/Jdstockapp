@@ -1,0 +1,17 @@
+
+‰
+java:S1192b"FDefine a constant instead of duplicating this literal "Error" 3 times.(ğïš£8äÕİ‘ù1J$d9a678e7-d2ce-407a-b5b4-af0b60323a56
+œ	java:S116"ZRename this field "Pane_mainScreen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü˜Ñ´8ŸòÃö1J$220f9b44-f6c1-4f29-9267-9d3c2797a4f4
+“
+java:S1659"PDeclare "lblCompanyDirection" and all following declarations on a separate line.(¸áğà8 òÃö1J$a1ac63fe-dfc0-4bb5-aff2-130497ddeca9
+r	java:S106K"+Replace this use of System.out by a logger.(ïşåÀÿÿÿÿÿ8¯òÃö1J$d72cc022-437b-4c20-a728-effdb75da479
+ƒ
+java:S1075S"ARefactor your code to get this URI from a customizable parameter.(âöÃ^8‰ºŞà÷1J$f9699689-7bc8-4f4e-a082-c41247edd2e8
+‰
+java:S1075y"ARefactor your code to get this URI from a customizable parameter.(ù÷‘µüÿÿÿÿ8ªŠåø1J$5c0f206a-f154-4978-9e07-77d73a416633
+m
+java:S1128"+Remove this unused import 'entity.Empresa'.(˜É¼c8šÌî‘ù1J$ca29bfa2-b694-46b0-ba28-996e8c02c71b
+w
+java:S1128"4Remove this unused import 'org.hibernate.Hibernate'.(óñ‹è8›Ìî‘ù1J$ff5f3515-a490-4fa3-90ae-41fe1bc33fa9
+€
+java:S1144°"<Remove this unused private "updateUIWithUserDetails" method.(ÍŠƒ8“…“Äö1J$ea090530-3f5b-40b0-86bb-f6f8562a9da5

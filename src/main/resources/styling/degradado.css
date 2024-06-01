@@ -1,0 +1,61 @@
+/* Aplica un degradado lineal al fondo de un contenedor */
+.container {
+    -fx-background-color: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+}
+
+/* Botón con degradado y bordes redondeados */
+.button {
+    -fx-background-color: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5px 10px;
+}
+
+/* TextField con fondo transparente y borde sutil */
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.1); /* fondo semitransparente */
+    -fx-border-color: #ffffff; /* color del borde */
+    -fx-border-width: 2; /* grosor del borde */
+    -fx-text-fill: #ffffff; /* color del texto */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); /* sombra para mejor legibilidad */
+}
+
+/* TextField con fondo completamente transparente */
+.text-field-clear {
+    -fx-background-color: transparent; /* completamente transparente */
+    -fx-border-color: #ffffff; /* color del borde */
+    -fx-border-width: 1; /* grosor del borde */
+    -fx-text-fill: #ffffff; /* color del texto */
+}
+.table-view {
+    -fx-background-color: #f4f4f4; /* Color de fondo general de la tabla */
+    -fx-table-cell-border-color: transparent; /* Borde de las celdas */
+    -fx-table-header-border-color: #d0d0d0; /* Borde de la cabecera */
+}
+
+.table-row-cell {
+    -fx-padding: 5px; /* Espaciado interno para cada celda */
+    -fx-border-color: #d0d0d0; /* Color del borde entre filas */
+    -fx-background-color: white; /* Color de fondo de las celdas */
+    -fx-background-insets: 0, 0 0 1 0; /* Ajusta los bordes internos para que el borde solo se aplique debajo */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #b0c4de; /* Color de fondo para filas seleccionadas */
+    -fx-text-fill: white; /* Color del texto para filas seleccionadas */
+}
+
+.table-column-header-background .label {
+    -fx-font-weight: bold; /* Fuente en negrita para los encabezados */
+    -fx-text-fill: #333333; /* Color del texto del encabezado */
+    -fx-padding: 5px; /* Espaciado interno del encabezado */
+    -fx-background-color: #e6e6e6; /* Color de fondo del encabezado */
+    -fx-alignment: center; /* Alineación del texto del encabezado */
+}
+
+.table-view:focused .table-row-cell:focused:selected {
+    -fx-background-color: #6495ed; /* Color de fondo para celda seleccionada en foco */
+}
+
+

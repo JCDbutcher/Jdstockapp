@@ -1,0 +1,25 @@
+
+j
+java:S5411w"(Use a primitive boolean expression here.(ùŞõ[8ƒ•ß”ù1J$84327f9a-7d2c-409b-8f9a-338c355e56f5
+b
+java:S1640A"Convert this Map to an EnumMap.(¦¨ÂË8è»Û”ù1J$d179b831-5c55-444b-8680-93166fba50e5
+’
+java:S1659"JDeclare "lblInprogress" and all following declarations on a separate line.(‰“òâùÿÿÿÿ8ä¼Û”ù1J$341fa53d-c684-4758-bb1d-cfa4e63c8b9b
+
+java:S1659""HDeclare "lblStockout" and all following declarations on a separate line.(ˆ¢™üÿÿÿÿ8ä¼Û”ù1J$b20d9f71-e183-46ae-a25a-897fc850bc0e
+x
+java:S1659$"0Declare "pieChartStockStage" on a separate line.(×’Ïşøÿÿÿÿ8å¼Û”ù1J$e61a5d7c-05f8-4cb7-8879-46417c94c780
+•
+java:S1659&"SDeclare "lblDaysToSellInventory" and all following declarations on a separate line.(í£ö8å¼Û”ù1J$2e27e2e4-b843-44b5-acf9-8779863f18a4
+ˆ
+java:S1659k"EDeclare "lowStock" and all following declarations on a separate line.(ıˆşÄ8—åŞ”ù1J$1518c03d-5dfd-41be-9d68-27c1c64f4b59
+v
+java:S1481k"3Remove this unused "nearExpiration" local variable.(ıˆşÄ8–üŞ”ù1J$79c3e283-9b30-431e-8d64-cd6af30fdc7d
+s	java:S106¯"+Replace this use of System.out by a logger.(Øîÿ¦ıÿÿÿÿ8’½Û”ù1J$485f37e4-db41-4a87-ac60-22199cf0fc3c
+s	java:S106É"+Replace this use of System.out by a logger.(µ£‹‘úÿÿÿÿ8½Û”ù1J$51e0ec63-7e71-4a02-9f7d-5a60810c8cd1
+{
+java:S1128"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8ÿ‰–™ù1J$0e78d6d6-8028-4ae6-a4d4-10bf27b704aa
+
+java:S1128"<Remove this unused import 'entity.ShippingStatus.COMPLETED'.(Şİò8ÿ‰–™ù1J$219d8289-78cc-4b4c-aa6c-48eb96ce399e
+z
+java:S1144‹"6Remove this unused private "applyCustomColors" method.(ª±ù€8¦åŞ”ù1J$41f5eb63-2754-4882-9e77-e8463f3fea0d

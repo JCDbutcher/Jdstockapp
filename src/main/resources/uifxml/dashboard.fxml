@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.dlsc.gemsfx.SearchTextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerDashboard">
+   <children>
+      <BorderPane prefHeight="852.0" prefWidth="1045.0">
+         <top>
+            <MenuBar fx:id="menuBar" prefHeight="28.0" prefWidth="246.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu fx:id="menuManagment" mnemonicParsing="false" text="Managment">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleMenuUserProfile" text="profile management" />
+                        <MenuItem mnemonicParsing="false" text="Exit" />
+                  </items>
+                </Menu>
+                <Menu fx:id="menuLenguage" mnemonicParsing="false" text="language">
+                     <items>
+                        <MenuItem fx:id="menuEnglish" mnemonicParsing="false" text="English" />
+                    <MenuItem fx:id="menuSpanish" mnemonicParsing="false" text="Spanish" />
+                     </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                        <MenuItem fx:id="menuHelp" mnemonicParsing="false" text="Help" />
+                    <MenuItem fx:id="menuAbout" mnemonicParsing="false" onAction="#handleMenuAbout" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <left>
+            <VBox id="vbox_panelIzq" styleClass="pane_1" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="119.0" prefWidth="238.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <children>
+                        <ImageView id="icon_jdstock" fitHeight="97.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icono_carga.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="591.0" prefWidth="238.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <JFXButton id="boton_dashboard" fx:id="btnDashboard" alignment="CENTER" onAction="#handleDashboardAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="Dashboard">
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_dashboard" fitHeight="31.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/dash_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_item" fx:id="btnItem" alignment="CENTER" cache="true" onAction="#handleItemsAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="Items">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_items" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/items_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_costumers" fx:id="btnCustumers" alignment="CENTER" onAction="#handleCustomersAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="Custumers">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_clientes" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/clientes_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_supplier" fx:id="btnSupplier" alignment="CENTER" onAction="#handleSupplierAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="Supplier">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_supplier" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/proveedores_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_transaction" fx:id="btnTransaction" alignment="CENTER" onAction="#handleTransactionAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="transaction">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_transaccion" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/transaccion_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_reports" fx:id="btnReport" alignment="CENTER" onAction="#handleReportAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="reports">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_report" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/reportes_icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton id="boton_supplier" fx:id="BtnProduction" alignment="CENTER" onAction="#handleProductionAction" prefHeight="52.0" prefWidth="160.0" styleClass="label-box" text="Production">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView id="icon_supplier" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icon_produccion.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <stylesheets>
+                              <URL value="@../styling/stylepackJD.css" />
+                              <URL value="@../styling/dashboard.css" />
+                           </stylesheets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <VBox alignment="TOP_CENTER" prefHeight="192.0" prefWidth="238.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <ImageView id="icon_bussiones" fitHeight="50.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/almacenes_icon.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <VBox />
+                              <Label id="label_comapanyName" fx:id="lblCompanyName" prefHeight="44.0" prefWidth="150.0" styleClass="label-box" stylesheets="@../styling/stylepackJD.css" text="Nombre ">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets right="20.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="label_companyAddress" fx:id="lblCompanyDirection" prefHeight="47.0" prefWidth="150.0" styleClass="label-box" stylesheets="@../styling/stylepackJD.css" text="Direccion">
+                                 <padding>
+                                    <Insets right="20.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <stylesheets>
+                  <URL value="@../styling/stylepackJD.css" />
+                  <URL value="@../styling/dashboard.css" />
+               </stylesheets>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXToolbar id="tool_bar" prefHeight="58.0" prefWidth="823.0" styleClass="table-view" stylesheets="@../styling/stylepackJD.css">
+                     <right>
+                        <HBox prefHeight="56.0" prefWidth="289.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <ImageView fx:id="ImgAvatar" fitHeight="43.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/avatar_hombre1.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="30.0" top="5.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox alignment="CENTER" prefHeight="56.0" prefWidth="230.0">
+                                 <children>
+                                    <Label id="label_nombreUsuario" fx:id="lblUsername" prefHeight="26.0" prefWidth="134.0" styleClass="user-name" stylesheets="@../styling/stylepackJD.css" text="NombreUsuario">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label id="label_rolUsuario" fx:id="lblUserrol" prefHeight="14.0" prefWidth="133.0" styleClass="user-role" stylesheets="@../styling/stylepackJD.css" text="RolUsuario">
+                                       <font>
+                                          <Font size="9.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </right>
+                     <left>
+                        <HBox prefHeight="57.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <SearchTextField id="searachtool" fx:id="txtfieldSearch" alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="302.0">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </SearchTextField>
+                              <Button fx:id="btnSearch" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Search">
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="15.0" />
+                           </padding>
+                        </HBox>
+                     </left>
+                     <center>
+                        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <padding>
+                              <Insets left="150.0" top="10.0" />
+                           </padding>
+                           <children>
+                              <Button id="button_notifi" fx:id="btnNotification" mnemonicParsing="false" onAction="#handleNotificationClick" styleClass="chart-pie">
+                                 <graphic>
+                                    <ImageView id="icon_notifi" fx:id="notificationIcon" fitHeight="27.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icon_notificacionoff.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <stylesheets>
+                                    <URL value="@../styling/stylepackJD.css" />
+                                    <URL value="@../styling/stylepackJD.css" />
+                                 </stylesheets>
+                                 <HBox.margin>
+                                    <Insets right="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button id="button_notifi" mnemonicParsing="false" styleClass="chart-pie">
+                                 <graphic>
+                                    <ImageView id="icon_notifi" fx:id="btnHelp" fitHeight="27.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/boton_ayuda.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <stylesheets>
+                                    <URL value="@../styling/stylepackJD.css" />
+                                    <URL value="@../styling/stylepackJD.css" />
+                                 </stylesheets>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                     </center>
+                  </JFXToolbar>
+                  <AnchorPane fx:id="Pane_mainScreen" onDragDetected="#loadInitialView" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</VBox>

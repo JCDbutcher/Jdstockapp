@@ -1,0 +1,11 @@
+
+ˆ	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(²°µ°8—¾•¥ö1J$6d66979b-3bc7-48d1-816f-0e9f842b6599
+ˆ	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(úÔé 8û•øÀö1J$563dc35b-d016-48da-a95c-9234c1eb9616
+x
+java:S1172,"0Remove this unused method parameter "empresaId".(„‹Ö›ıÿÿÿÿ8¿¡ÒÀ÷1J$6dac7586-ecc3-4f1c-b737-46a93ee38495
+y
+java:S1128"6Remove this unused import 'entity.DetalleTransaccion'.(¦ûÀ¼8ÚÄ¤À÷1J$aecd1e1f-fb1a-4817-98f4-781dc74ad1dd
+w
+java:S1128"/Remove this unused import 'entity.Fabricacion'.(·ß¡øÿÿÿÿ8ÚÄ¤À÷1J$09741df2-a8ae-4664-a00c-316d50321011
+
+java:S1128"<Remove this unused import 'jakarta.persistence.EntityGraph'.(à©§8ÛÄ¤À÷1J$1ea01571-5cd8-4887-be2b-302767ba25aa

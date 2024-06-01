@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerDashboardInv">
+   <top>
+      <JFXToolbar prefHeight="30.0" prefWidth="894.0" BorderPane.alignment="CENTER">
+         <left>
+            <Label id="label_GestionDeinventerio" prefHeight="44.0" prefWidth="190.0" styleClass="label-inventory-management" text="Inventory Information" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <stylesheets>
+                  <URL value="@../styling/stylepackJD.css" />
+                  <URL value="@../styling/dashboard.css" />
+               </stylesheets>
+            </Label>
+         </left>
+         <right>
+            <HBox prefHeight="58.0" prefWidth="222.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label id="label_Period" prefHeight="44.0" prefWidth="61.0" styleClass="label-period" text="Period:">
+                     <font>
+                        <Font size="1.0" />
+                     </font>
+                     <stylesheets>
+                        <URL value="@../styling/stylepackJD.css" />
+                        <URL value="@../styling/dashboard.css" />
+                     </stylesheets>
+                  </Label>
+                  <ComboBox id="comboBox_perido" fx:id="comboBoxPeriodo" prefHeight="0.0" prefWidth="148.0" styleClass="combo-box" stylesheets="@../styling/stylepackJD.css" />
+               </children>
+               <padding>
+                  <Insets top="6.0" />
+               </padding>
+            </HBox>
+         </right>
+      </JFXToolbar>
+   </top>
+   <bottom>
+      <SplitPane prefHeight="302.0" prefWidth="894.0" BorderPane.alignment="CENTER">
+         <items>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <PieChart fx:id="pieChartSalesOrderStage" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="293.0" prefWidth="198.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Completed " textFill="#4caf50">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="In Progress" textFill="#9c27b0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="Returns " textFill="ORANGE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="Overdue Shipping" textFill="#f44336">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="lblCompleted" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblInprogress" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblReturns" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblOverdue" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <PieChart id="PI" fx:id="pieChartStockStage" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="In Stock Items" textFill="#4caf50">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="Out of Stock Items" textFill="#9c27b0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="Low Stock Items" textFill="ORANGE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblStockDead" text="Dead Stock Items" textFill="#f44336">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox fx:id="lblDeadStock" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="lblStockin" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblStockout" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblStocklow" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="lblstockDead" alignment="CENTER" contentDisplay="CENTER" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="30.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </HBox>
+         </items>
+      </SplitPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="262.4" prefWidth="893.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Inventory Turnover Ratio">
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="lblInventoryTurnoverRatio" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Average Inventory">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblAverageInventory" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Cost of Goods Sold ">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblCostOfGoodsSold" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Service Level">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblServiceLevel" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="81.0" prefWidth="894.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Days to Sell Inventory">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblDaysToSellInventory" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Lead Time">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblLeadTime" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Perfect Order Rate">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblPerfectOrderRate" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                           <children>
+                              <Label text="Rate of Return">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="lblReturnSales" text="5">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="44.0" prefWidth="1312.0" styleClass="arrow" stylesheets="@../styling/stylepackJD.css">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label contentDisplay="CENTER" text="SALES ORDERS">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets right="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="panelToken" stylesheets="@../styling/stylepackJD.css" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" text="INVENTORY" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

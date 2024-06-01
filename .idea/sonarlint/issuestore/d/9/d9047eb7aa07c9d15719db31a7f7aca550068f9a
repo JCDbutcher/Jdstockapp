@@ -1,0 +1,9 @@
+
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¬£ÑÂ8ñ”¶á÷1J$7418ef08-a0f3-4c53-86b0-fdd1229e096b
+}
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ýÿÿÿÿ8ô”¶á÷1J$df763d52-49cb-454e-a83d-f0e3bc0fcda5
+w
+java:S1128"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8ô”¶á÷1J$203a21bf-2a09-432a-9206-2fe990e3cad5
+h
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8ô”¶á÷1J$f4db7587-c221-4f40-a287-d3ba5f0a77e4

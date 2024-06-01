@@ -1,0 +1,16 @@
+
+ˆ	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ûššÀ8Â×†ìö1J$81c46018-48d4-497d-800c-8d24c45e62a9
+‡	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(éùF8Ã×†ìö1J$4c885585-3715-4832-bc51-0c5b70e4a213
+ˆ	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.( ² Ş8Ã×†ìö1J$416eb0dc-3440-4c9d-b3ca-196e9e8521b4
+’
+java:S1192-"JDefine a constant instead of duplicating this literal "empresaId" 6 times.(é¸à—ÿÿÿÿÿ8é Ë”ù1J$7e8e14f1-f622-406a-8b85-9ff25b1655b5
+¤
+java:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "productos".(¦Œù¢8ÖäÃ”ù1J$8ed59dc8-2f59-420b-b85d-b06a112f4d2c
+¥
+java:S1488Ä"aImmediately return this expression instead of assigning it to the temporary variable "productos".(¦Œù¢8€Üá”ù1J$a2096baf-67f1-4283-af4b-ffe365e94d5a
+}
+java:S1128";Remove this unused import 'jakarta.persistence.TypedQuery'.(•Çã8õ°Â“ù1J$4f20f168-69bf-431e-8427-825511abae6c
+w
+java:S1128"4Remove this unused import 'org.hibernate.Hibernate'.(óñ‹è8õ°Â“ù1J$42884d2b-a607-456c-b413-bfb508edb6cb
+z
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8õ°Â“ù1J$1e83e63f-3118-4c7f-b5c2-2f076a4e8834
