@@ -8,3 +8,5 @@ Este proyecto es una aplicación de gestión de inventario desarrollada en Java 
 ![Screenshot 2024-05-17 165635](https://github.com/JCDbutcher/Jdstockapp/assets/127102634/be788a6f-1b15-48cd-af76-584262895f74)
 
 ![Screenshot 2024-05-17 145816](https://github.com/JCDbutcher/Jdstockapp/assets/127102634/abb198b1-8d1d-4dc1-8219-0af70f4b9950)
+
+![Screenshot 2024-05-20 121610](https://github.com/JCDbutcher/Jdstockapp/assets/127102634/b45bdf12-7f43-4557-8286-bfe4c9cc0031)
