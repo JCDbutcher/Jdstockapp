@@ -9,8 +9,8 @@ public class EmailSender {
     public static void sendInvoiceEmail(String toAddress, String subject, String htmlContent) throws MessagingException {
         String host = "smtp.gmail.com";
         String port = "587";
-        String mailFrom = "juandeabreu14@gmail.com";
-        String password = "bzss acmr aafc yfhj";
+        String mailFrom = "@gmail.com";
+        String password = "bzss acmr aafc ";
 
         Properties properties = new Properties();
         properties.put("mail.smtp.host", host);
